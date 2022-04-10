@@ -1,0 +1,87 @@
+.slider{
+    
+    width: 30vw;
+    height: 35vh;
+    display: flex;
+    overflow: hidden;
+    border: solid 2px white;
+    margin-top: 1%;
+    margin-left: 33%;
+    
+    
+   
+
+}
+.picSlider{
+    width: 100% ;
+    height: 100%;
+    flex-shrink: 0;
+    animation: slider 25s alternate infinite ;
+    animation-delay: 1s;
+    border: solid 2px white;
+   
+
+
+}
+
+
+@keyframes slider {
+    0%{
+        transform:translateX(-0%);
+    }
+    25%{
+        transform:translateX(-100%);
+    }
+   50%{
+      transform:translateX(-200%);
+    }
+    75%{
+        transform:translateX(-300%);
+    }
+    100%{
+        transform:translateX(-400%);
+    }
+ 
+}
+.about{
+    background: url("https://thumbs.gfycat.com/DisfiguredPrestigiousFieldmouse-size_restricted.gif");
+    background-size: contain;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigTitle{
+    /* font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Playfair Display', serif; */
+    font-family: 'Rubik Wet Paint', cursive;
+    margin-top: 120px;
+    font-size: 3.5rem;   
+}
+.littelTitle{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+.abuotTheWedding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+}
+.aboutThePlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+  
+}
+.placeIcon{
+    width: 20px;
+    height: 20px;
+    margin-top: 38px;
+}

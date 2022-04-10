@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const guestRouter = require('./routes/guest-route');
-app.use('/T&Y_wedding',guestRouter);
+app.use('/TYwedding',guestRouter);
 
 
 app.listen(PORT, () => console.log("server up"))

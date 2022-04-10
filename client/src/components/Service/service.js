@@ -18,3 +18,18 @@ export const UpdateGuest = async (phone, guest) => {
         console.log(err);
     }
 };
+
+export const AddGuest = async (guest) => {
+    const options = {
+        method: "POST",
+        body: JSON.stringify({ ...guest }),
+        headers: { 'Content-Type': 'application/json' }
+    }
+    try {
+        return await fetch(`${BASE_URL}`, options)
+            .then((res) => res.json())
+    }
+    catch (err) {
+        console.log(err);
+    }
+};

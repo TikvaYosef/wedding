@@ -6,7 +6,7 @@ const Guest = new Schema({
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
     isarrive: { type: Boolean, required: true },
-    amount: { type: Boolean, required: true },
+    amount: { type: String, required: true },
     phone: { type: String, required: true },
 },
     { timestamps: true }
