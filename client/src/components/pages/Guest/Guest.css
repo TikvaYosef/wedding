@@ -1,16 +1,15 @@
+*{
+    margin: 0;
+}
 .slider{
     
     width: 30vw;
     height: 35vh;
     display: flex;
     overflow: hidden;
-    border: solid 2px white;
+    border: solid 6px black;
     margin-top: 1%;
     margin-left: 33%;
-    
-    
-   
-
 }
 .picSlider{
     width: 100% ;
@@ -18,12 +17,8 @@
     flex-shrink: 0;
     animation: slider 25s alternate infinite ;
     animation-delay: 1s;
-    border: solid 2px white;
-   
-
-
+    border: solid 2px black;
 }
-
 
 @keyframes slider {
     0%{
@@ -44,27 +39,33 @@
  
 }
 .about{
-    background: url("https://thumbs.gfycat.com/DisfiguredPrestigiousFieldmouse-size_restricted.gif");
-    background-size: contain;
+    /* background: url("https://thumbs.gfycat.com/AbandonedWeightyBactrian-size_restricted.gif");
+    background-size: cover;
+    background-repeat: no-repeat; */
     height: 60vh;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.all{
+    background: url("https://thumbs.gfycat.com/AbandonedWeightyBactrian-size_restricted.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
 .bigTitle{
-    /* font-family: 'Anton', sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Lobster', cursive;
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-family: 'Playfair Display', serif; */
-    font-family: 'Rubik Wet Paint', cursive;
+    
     margin-top: 120px;
-    font-size: 3.5rem;   
+    font-size: 3.5rem;  
+    text-shadow: white; 
 }
 .littelTitle{
     font-family: 'Lobster', cursive;
     font-size: 2.5rem;
+    font-family: 'Rubik Wet Paint', cursive;
+
 }
 .abuotTheWedding{
     display: flex;
@@ -72,13 +73,13 @@
     align-items: center;
     font-family: 'Anton', sans-serif;
     font-size: 2.5rem;
+    text-shadow: black 2px 2px;
 }
 .aboutThePlace{
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 1.5rem;
-  
 }
 .placeIcon{
     width: 20px;

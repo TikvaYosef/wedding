@@ -1,0 +1,82 @@
+
+.input{
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color:gray;
+    background: burlywood;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 12px; 
+    text-align: center;
+}
+.fullname{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.input:hover {
+    background: white;
+   
+}
+.inputamount{
+    width: 150px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color:gray;
+    background: burlywood;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 12px; 
+  text-align: center;
+  margin: 10px;
+}
+.inputamount:hover{
+    background: white;
+}
+.emojiPic{
+    width: 20px;
+    height: 30px;
+}
+ .isarriveBtn{
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+/* .arriveText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-right: 30px;
+}  */
+.arrivetext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 100px;
+ 
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-right: 80px;
+}
+.addBtn{
+    border-radius: 100px;
+    border-color: blanchedalmond;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: aliceblue;
+    margin-right: 50px;
+}
+
+/* @media  only screen  and (min-width:320px) and (max-width:375px){
+
+} */

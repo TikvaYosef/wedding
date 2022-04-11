@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  background-image: url("https://previews.123rf.com/images/khismatov/khismatov1702/khismatov170200027/71643615-%E7%99%BD%E3%81%84%E8%83%8C%E6%99%AF%E3%81%AE%E4%B8%8A%E3%81%AE%E7%B5%90%E5%A9%9A%E5%BC%8F%E3%82%AB%E3%83%BC%E3%83%89%E3%81%AE%E7%B5%90%E5%A9%9A%E6%8C%87%E8%BC%AA.jpg");
+  background-image: url("https://cdn.shopify.com/s/files/1/0284/1788/4194/files/Men_s_Wedding_bands_Vancouver_3be24dbe-3768-4b01-ac4a-44a3a0104810_1800x.jpg?v=1635845510");
   background-size: cover;
   background-repeat: no-repeat;
+  color: burlywood;
+  
 }
 
 .App-logo {
