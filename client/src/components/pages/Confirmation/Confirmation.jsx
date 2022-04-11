@@ -42,7 +42,7 @@ export const Confirmation = () => {
         }
     }
     const Add = (event) => {
-        // event.preventDefault();
+        event.preventDefault();
         setAddItem({ ...addItem });
         AddGuest(addItem)
             .then((res) => { console.log(res); })
