@@ -26,7 +26,7 @@ export const AddGuest = async (guest) => {
         headers: { 'Content-Type': 'application/json' }
     }
     try {
-        return await fetch(`${BASE_URL}`, options)
+        return await fetch( BASE_URL , options)
             .then((res) => res.json())
     }
     catch (err) {
