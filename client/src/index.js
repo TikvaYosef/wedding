@@ -5,19 +5,20 @@ import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 
-// ReactDOM.render(
-//   <React.Fragment>
-//     <App />
-//   </React.Fragment>,
-//   document.getElementById('root')
-// );
 
 
 // If you want your app to work offline and load faster, you can change
