@@ -14,6 +14,7 @@ app.listen(PORT, () => console.log("server up"))
 
 
 app.use("/api/wedding",guestRouter);
+app.use(express.urlencoded({ extended: true }));
 
 
 if (process.env.NODE_ENV === 'production') {
