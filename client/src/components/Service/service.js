@@ -3,7 +3,6 @@ const BASE_URL = process.env.NODE_ENV === 'production'
 : 'http://localhost:9090/api/wedding'
 
 
-
 export const UpdateGuest = async (phone, guest) => {
     const options = {
         method: "PUT",
