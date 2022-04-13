@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { AddGuest } from "../../Service/service"
 import "./Confirmation.css";
 
@@ -25,27 +25,27 @@ export const Confirmation = () => {
 
 
 
-    const Up = () => {
-        if (count === 13) {
-            setCount(13)
-        }
-        else {
-            setCount(count + 1)
-        }
-    }
-    const Down = () => {
-        if (count === 0) {
-            setCount(0)
-        }
-        else {
-            setCount(count - 1)
-        }
-    }
+    // const Up = () => {
+    //     if (count === 13) {
+    //         setCount(13)
+    //     }
+    //     else {
+    //         setCount(count + 1)
+    //     }
+    // }
+    // const Down = () => {
+    //     if (count === 0) {
+    //         setCount(0)
+    //     }
+    //     else {
+    //         setCount(count - 1)
+    //     }
+    // }
     const Add = (event) => {
         event.preventDefault();
         setAddItem({ ...addItem });
         AddGuest(addItem)
-            .then((res) => { alert("תודה!") })
+            .then((res) => {console.log(res) })
     };
     const handleAddOnChange = (event) => {
         addItem[event.target.name] = event.target.value;
