@@ -1,6 +1,6 @@
 const BASE_URL = process.env.NODE_ENV === 'production'
 ? 'https://wedding-258.herokuapp.com'
-: 'http://localhost:9090/api/wedding';
+: 'http://localhost:9090/api/wedding'
 
 
 
