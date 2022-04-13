@@ -45,7 +45,7 @@ export const Confirmation = () => {
         event.preventDefault();
         setAddItem({ ...addItem });
         AddGuest(addItem)
-            // .then((res) => { console.log(res); })
+            .then((res) => { console.log(res) })
     };
     const handleAddOnChange = (event) => {
         addItem[event.target.name] = event.target.value;
